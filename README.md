@@ -15,6 +15,7 @@ Spring 2018
 
 # Resources:
 All material derived from exercises assigned by SMU faculty.  Any external data or reference points will be credited on subsequent README files within this repo, and specific to the assignment in question. 
+*Please Note:  Referenced data from package fivethirtyeight was derived from the following source:  https://github.com/rudeboybert/fivethirtyeight
 
 # Questions?:
 Please contact me (Kris Henley) at khenley@gmail.com with any questions regarding content.
