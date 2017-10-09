@@ -1,0 +1,54 @@
+---
+title: HW5 - Doing Data Science
+author: Kristopher Henley
+date: 10/09/2017
+output: HTML
+---
+
+## Project Description
+Client is expecting a baby, and unsure what to name the child.  In this project we will sort through raw data 
+for baby names and their popularity between the years 2015 and 2016.
+
+##Study design and data processing
+We have to data sets (2015 and 2016).  The data each contain variable Name, Gender, and the Total number of children
+who received each name in the corresponding year.
+
+###Collection of the raw data
+Unknown
+
+###Notes on the original (raw) data 
+Raw data contains no headers or variable names.  We've assgined Name, Gender, Total, and GTotal respectively during
+the data clean up and organization process.
+
+##Creating the tidy datafile
+We've assgined Name, Gender, Total, and GTotal respectively during
+the data clean up and organization process.
+
+###Guide to create the tidy data file
+1) Downloaded/Imported data for 2016
+2) Assigned variable names (Name,Gender,Total)
+3) Identified and removed duplicate entry (Fionayyy was a duplicate of Fiona)
+4) Downloaded/Imported data for 2015
+5) Assigned variable names (Name,Gender,Total)
+6) Merged 2016 with 2015 based on the Name variable
+7) Create new variable which totals the number of instances for each name in both years combined (GTotal)
+8) Assess popularity by sorting the names by GTotal.
+9) Client having a girl, so apply a filter by gender to return a list of the top 10 girls names for the combined years.
+ 
+###Cleaning of the data
+*See Above
+
+##Description of the variables in the tiny_data.txt file
+*Data Frame with 32868 observations and 4 variable
+Name - factor    *This variable provides the actual name given to children born in 2015 and 2016 respectively
+Gender - factor  *This variable provides the gender of the child
+Total - integer  *This variable provides the total number of children assigned to each name 
+GTotal - integer *This variable provides a grand total for each name for the combined years
+
+
+##Sources
+Data Sets provided for MSDS 6306 Doing Data Science HW5 assignment:
+https://2ds.datascience.smu.edu/local/files/index.php?course_id=104&group=290&userid=1075&groupid=-1
+
+##Annex
+echo = true for all code
